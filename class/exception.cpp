@@ -1,10 +1,11 @@
 #include <iostream>
 
+using namespace std;
 class my_exception: public std::runtime_error
 {
 public:
 	using this_type		= my_exception;			// 给自己起个别名
-	using super_type	= std::runtime_error;	// 给父类也起个别名
+	using supper_type	= std::runtime_error;	// 给父类也起个别名
 public:
 	my_exception(const char *msg):	// 构造函数
 		supper_type(msg)

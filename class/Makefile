@@ -18,4 +18,4 @@ smart_ptr:
 	$(CC) $(CFLAGS) -o smart_ptr smart_ptr.cpp -lm -lc
 
 clean:
-	rm -rf main democlass auto-decltype const-volatile-mutable smart_ptr const-volatile-mutalbe
+	rm -rf main democlass auto-decltype const-volatile-mutable smart_ptr const-volatile-mutalbe exception

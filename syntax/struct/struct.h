@@ -1,0 +1,10 @@
+// 结构的声明
+void struct_statement();
+// 结构成员的访问
+void struct_var();
+// 结构自引用 
+void struct_own_var();
+// 不完整声明
+void struct_part_statement();
+// 结构、指针和成员
+void struct_pointer_var();
